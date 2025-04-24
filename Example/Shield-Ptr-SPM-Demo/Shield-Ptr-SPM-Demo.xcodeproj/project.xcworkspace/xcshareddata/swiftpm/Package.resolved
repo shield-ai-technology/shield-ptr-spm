@@ -1,0 +1,15 @@
+{
+  "originHash" : "1482664461353dfeef2b2f7088c168c7231bf28cbb14dc58d5a8ccbae7d7b436",
+  "pins" : [
+    {
+      "identity" : "shield-ptr-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rajdeepak27/shield-ptr-spm",
+      "state" : {
+        "branch" : "main",
+        "revision" : "be918f5eee0cf7b9bbd64411a42d700c889b7f4c"
+      }
+    }
+  ],
+  "version" : 3
+}

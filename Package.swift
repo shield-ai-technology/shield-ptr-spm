@@ -1,8 +1,8 @@
 // swift-tools-version:5.5
 import PackageDescription
 
-let version = "1-5-51"
-let checksum = "0a970e2e6325b6878ad3abdf3563f4eb03a01f97cd712ff79f1b81ed3201744f"
+let version = "1-5-52"
+let checksum = "3f80bef16ebda425b53a8e9f2e7d4a3ce9b027d8dbcccd057605acca8c3bef83"
 
 let package = Package(
     name: "shield-ptr-spm",
@@ -11,13 +11,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "ShieldFraud",
-            targets: ["ShieldFraud"]
+            name: "ShieldPtr",
+            targets: ["ShieldPtr"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "ShieldFraud",
+            name: "ShieldPtr",
             url: "https://s3.amazonaws.com/cashshield-sdk/shield-ptr-ios-swift-\(version).zip",
             checksum: checksum
         )

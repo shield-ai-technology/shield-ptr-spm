@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CCCA67542DBA742A0024C3FF /* ShieldFraud in Frameworks */ = {isa = PBXBuildFile; productRef = CCCA67532DBA742A0024C3FF /* ShieldFraud */; };
+		CCDC520A2E7C0937007B80D9 /* ShieldPtr in Frameworks */ = {isa = PBXBuildFile; productRef = CCDC52092E7C0937007B80D9 /* ShieldPtr */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCCA67542DBA742A0024C3FF /* ShieldFraud in Frameworks */,
+				CCDC520A2E7C0937007B80D9 /* ShieldPtr in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			);
 			name = "Shield-Ptr-SPM-Demo";
 			packageProductDependencies = (
-				CCCA67532DBA742A0024C3FF /* ShieldFraud */,
+				CCDC52092E7C0937007B80D9 /* ShieldPtr */,
 			);
 			productName = "Shield-Ptr-SPM-Demo";
 			productReference = CCCA673A2DBA73DA0024C3FF /* Shield-Ptr-SPM-Demo.app */;
@@ -114,7 +114,7 @@
 			mainGroup = CCCA67312DBA73DA0024C3FF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				CCCA67522DBA742A0024C3FF /* XCRemoteSwiftPackageReference "shield-ptr-spm" */,
+				CCDC52082E7C0937007B80D9 /* XCRemoteSwiftPackageReference "shield-ptr-spm" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CCCA673B2DBA73DA0024C3FF /* Products */;
@@ -344,21 +344,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CCCA67522DBA742A0024C3FF /* XCRemoteSwiftPackageReference "shield-ptr-spm" */ = {
+		CCDC52082E7C0937007B80D9 /* XCRemoteSwiftPackageReference "shield-ptr-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rajdeepak27/shield-ptr-spm";
+			repositoryURL = "https://github.com/shield-ai-technology/shield-ptr-spm";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.52;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CCCA67532DBA742A0024C3FF /* ShieldFraud */ = {
+		CCDC52092E7C0937007B80D9 /* ShieldPtr */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CCCA67522DBA742A0024C3FF /* XCRemoteSwiftPackageReference "shield-ptr-spm" */;
-			productName = ShieldFraud;
+			package = CCDC52082E7C0937007B80D9 /* XCRemoteSwiftPackageReference "shield-ptr-spm" */;
+			productName = ShieldPtr;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

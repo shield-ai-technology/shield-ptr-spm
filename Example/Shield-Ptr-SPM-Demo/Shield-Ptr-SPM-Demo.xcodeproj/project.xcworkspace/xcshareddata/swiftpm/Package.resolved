@@ -1,13 +1,13 @@
 {
-  "originHash" : "1482664461353dfeef2b2f7088c168c7231bf28cbb14dc58d5a8ccbae7d7b436",
+  "originHash" : "79dc7d16d1b6d82315b6d1e97483840252b0ac2a54d9f0bf89e997d33c4d6b00",
   "pins" : [
     {
       "identity" : "shield-ptr-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rajdeepak27/shield-ptr-spm",
+      "location" : "https://github.com/shield-ai-technology/shield-ptr-spm",
       "state" : {
-        "branch" : "main",
-        "revision" : "be918f5eee0cf7b9bbd64411a42d700c889b7f4c"
+        "revision" : "d2dfda2271cffcc7c420fc1aa7c741241a2eea4b",
+        "version" : "1.5.52"
       }
     }
   ],

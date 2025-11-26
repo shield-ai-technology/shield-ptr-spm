@@ -1,8 +1,8 @@
 // swift-tools-version:5.5
 import PackageDescription
 
-let version = "1-5-53"
-let checksum = "b0fb6d9b9472c94fca83da55b2706d5c9f27d69c4aaa39bc555257814923e266"
+let version = "1-5-54"
+let checksum = "7252914eab3da113e51c01b2b793d199969446e9cedba719c0d66ba5bab74b00"
 
 let package = Package(
     name: "shield-ptr-spm",
